@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {PopupText} from "../../../popup-text";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'hello-app';
+  async handleClick(event: Event){
+    await PopupText.showPopup({message: 'Hello World'})
+
+  }
 }
