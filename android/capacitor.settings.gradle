@@ -3,4 +3,4 @@ include ':capacitor-android'
 project(':capacitor-android').projectDir = new File('../node_modules/@capacitor/android/capacitor')
 
 include ':popup-text'
-project(':popup-text').projectDir = new File('../../popup-text/android')
+project(':popup-text').projectDir = new File('../node_modules/popup-text/android')
