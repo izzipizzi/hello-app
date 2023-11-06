@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PopupText } from "../../../popup-text";
+import { PopupText } from "popup-text";
 
 @Component({
   selector: 'app-root',
